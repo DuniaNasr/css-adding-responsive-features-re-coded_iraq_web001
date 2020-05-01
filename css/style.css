@@ -98,6 +98,7 @@ iframe {
 .border-right {
   border-right: 1px dotted #ccc;
   padding-right: 30px;
+  border:0;
 }
 
 
@@ -160,21 +161,25 @@ img, video, audio, iframe, table, form {
 /*/////// LAYOUT ////////*/
 
 .wrapper {
-  width: 960px;
+  width: 90%;
   margin: 0 auto;
 }
 
 .col-1 {
-  float: left;
-  width: 32%;
+  width: 100%;
+  margin-left: 0;
+  float:none;
 }
-
 .col-2 {
-  float: left;
-  width: 66%;
+  width: 100%;
+  margin-left: 0;
+  float:none;
 }
 
 .col-3 p {
+   width: 100%;
+  margin-left: 0;
+  float:none;
   -moz-column-rule: 1px dotted #ccc;
   -webkit-column-rule: 1px dotted #ccc;
   column-rule: 1px dotted #ccc;
@@ -183,7 +188,7 @@ img, video, audio, iframe, table, form {
   column-gap: 1.5em;
   -moz-column-count: 3;
   -webkit-column-count: 3;
-  column-count: 3;
+  column-count: 1;
 }
 
 [class*="col-"] {
@@ -206,7 +211,8 @@ img, video, audio, iframe, table, form {
 
 #social a {
   display: block;
-  width: 40px;
+  width: auto;
+  position: absolute;
   height: 40px;
   text-indent: 100%;
   white-space: nowrap;
@@ -249,6 +255,7 @@ header {
 
 #navbar nav {
   border-left: 1px solid #ccc;
+  font-size: 0.9em;
 }
 
 #navbar nav a {
@@ -292,8 +299,8 @@ header {
 
 #logo h1 {
   display: inline-block;
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -309,6 +316,7 @@ header {
   position: relative;
   top: -9px;
   left: 5px;
+  font-size: 2.2em;
   color: #303;
 }
 
@@ -327,7 +335,7 @@ section {
 }
 
 #details div {
-  height: 221px;
+  height: auto;
 }
 
 #details a:link, #details a:visited {
