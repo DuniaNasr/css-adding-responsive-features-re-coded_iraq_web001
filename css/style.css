@@ -183,7 +183,7 @@ img, video, audio, iframe, table, form {
   column-gap: 1.5em;
   -moz-column-count: 3;
   -webkit-column-count: 3;
-  column-count: 3;
+  column-count: 2;
 }
 
 [class*="col-"] {
@@ -293,8 +293,8 @@ header {
 
 #logo h1 {
   display: inline-block;
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -310,6 +310,7 @@ header {
   position: relative;
   top: -9px;
   left: 5px;
+  font-size: 2.2em;
   color: #303;
 }
 
