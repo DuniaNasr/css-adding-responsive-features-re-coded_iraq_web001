@@ -171,10 +171,15 @@ img, video, audio, iframe, table, form {
 
 .col-2 {
   float: left;
-  width: 66%;
+  width: 100%;
+  margin-left: 0;
+  float:none;
 }
 
 .col-3 p {
+   width: 100%;
+  margin-left: 0;
+  float:none;
   -moz-column-rule: 1px dotted #ccc;
   -webkit-column-rule: 1px dotted #ccc;
   column-rule: 1px dotted #ccc;
@@ -183,7 +188,7 @@ img, video, audio, iframe, table, form {
   column-gap: 1.5em;
   -moz-column-count: 3;
   -webkit-column-count: 3;
-  column-count: 2;
+  column-count: 1;
 }
 
 [class*="col-"] {
@@ -250,6 +255,7 @@ header {
 
 #navbar nav {
   border-left: 1px solid #ccc;
+  font-size: 0.9em;
 }
 
 #navbar nav a {
